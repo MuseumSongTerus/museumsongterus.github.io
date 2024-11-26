@@ -1,8 +1,75 @@
-.final-score-container {
-    margin-top: 100px;
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
 }
 
-#final-score {
-    font-size: 80px;
-    color: #28a745;
+/* Final Score Container */
+.final-score-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Score Card */
+.score-card {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Title */
+.title {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Result Image */
+.result-image {
+    width: 80%;
+    max-width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.result-image:hover {
+    transform: scale(1.05);
+}
+
+/* Score Text */
+.score-text {
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Souvenir Text */
+.souvenir-text {
+    color: #6c757d;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+/* Try Again Button */
+.try-again-btn {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.try-again-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.try-again-btn:active {
+    transform: scale(0.95);
 }
