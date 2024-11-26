@@ -47,7 +47,7 @@ const questions = [
         question: "Rangka Song Keplek V termasuk ke dalam Ras?",
         image: "resources/7.jpg",
         options: ["Ras Australomelanesid", "Ras Mongolid", "Ras Melayunesoid"],
-        correctAnswer: "2"
+        correctAnswer: "1"
     },
     {
         question: "Situs Eponym merupakan sebutan untuk situs?",
@@ -101,7 +101,7 @@ const questions = [
         question: "Berikut merupakan koleksi yang berfungsi sebagai alat untuk meratakan lahan pertanian yang dinamakan?",
         image: "resources/16.jpg",
         options: ["Luku", "Laka", "Lika"],
-        correctAnswer: "2"
+        correctAnswer: "0"
     },
 	{
         question: "Berikut merupakan kebudayaan pacitan yang dinamakan?",
