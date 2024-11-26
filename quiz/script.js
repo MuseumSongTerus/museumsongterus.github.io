@@ -51,7 +51,7 @@ const questions = [
     },
     {
         question: "Situs Eponym merupakan sebutan untuk situs?",
-        image: "resources/8.jpg",
+        image: "resources/8.JPG",
         options: ["Situs yang menghasilkan batu", "Situs yang bernama sesuai dengan nama wilayah temuan", "Situs Purbakala"],
         correctAnswer: "1"
     },
